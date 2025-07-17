@@ -1,0 +1,39 @@
+<html>
+
+<head>
+    <title>EP Products and Services Support</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+    <meta name="referrer" content="origin" />
+    <link href="https://www.ep.com/favicon-32x32.png?v=355786dfdd3ccafbba13e0b014d466b0" rel="shortcut icon" />
+
+<body>
+    <div class="main">
+        <div class="bodyContent">
+            <img id="bodyImage" src="./home.png">
+        </div>
+    </div>
+    <script type='text/javascript'>
+        // Resize the image based on the window size
+        (function () {
+            try { }
+            catch (ex) {
+                console.error('Error updating img src ', ex);
+            }
+            window.onresize = displayWindowSize;
+            window.onload = displayWindowSize;
+            function displayWindowSize() {
+                let myWidth = window.innerWidth;
+                document.getElementById("bodyImage").width = window.innerWidth;
+            };
+        })();
+    </script>
+    <script type='text/javascript'>
+        var head = document.getElementsByTagName("body")[0];
+        var script = document.createElement("script");
+        script.src = "https://entertainmentpartners--flowmigrat.sandbox.my.site.com/sfsites/c/resource/NFChatResources/script.js?ts=" + Date.now();
+        script.async = "async";
+        head.appendChild(script);
+    </script>
+</body>
+
+</html>
